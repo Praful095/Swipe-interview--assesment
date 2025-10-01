@@ -1,14 +1,14 @@
 {
-    "files": [],
-   
-    "compilerOptions": {
-       "noUnusedLocals": false,
-        "noUnusedParameters": false,
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "strict": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "noUnusedLocals": false,
+    "noUnusedParameters": false
   },
-  "include": [ "vite-env.d.ts"]
-    
+  "include": ["vite-env.d.ts"]
 }
