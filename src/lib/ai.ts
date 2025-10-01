@@ -1,6 +1,8 @@
 import { GoogleGenerativeAI, GenerationConfig } from '@google/generative-ai';
 import { Candidate, Question } from './types';
 
+
+
 const API_KEY = import.meta.env.VITE_GEMINI_API_KEY;
 
 if (!API_KEY) {
