@@ -30,7 +30,7 @@ export const generateInterviewQuestions = async (resumeText: string): Promise<Qu
     - 2 "Medium" questions with a 60-second timer.
     - 2 "Hard" questions with a 120-second timer.
 
-    Return the output as a valid JSON array of objects. Each object in the array must have the following structure: { "id": "unique-id", "text": "The question text", "difficulty": "Easy" | "Medium" | "Hard", "duration": 20 | 60 | 120 }.
+    Return the output as a valid JSON array of objects. Each object in the array must have the following structure: { "id": "unique-id", "text": "The question text", "difficulty": "Easy" | "Medium" | "Hard", "duration": 60 | 120 | 150 }.
 
     Resume Text:
     ---
